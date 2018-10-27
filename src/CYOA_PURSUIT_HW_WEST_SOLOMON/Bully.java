@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Bully {
     Scanner scanner = new Scanner(System.in);
-//    String go0, go1, go2;
     ArrayList<String> fightOrFlight = new ArrayList<>();
     int fof;
 
@@ -16,7 +15,6 @@ public class Bully {
     public void startGame() {
         logo();
         instructions();
-//        playerName();
         play();
 
     }
@@ -110,7 +108,6 @@ public class Bully {
         go0();
         go1();
         go2();
-//        System.out.println(fightOrFlight);
 
         for (String prideCount:fightOrFlight) {
            if (prideCount.equals("Fight")){
@@ -128,28 +125,6 @@ public class Bully {
                     "\n You go home bruised but a winner."+
                     "\n You have earned an achievement: HEFTY HEFTY HEFTY!");
         }
-//        if (go0.equals(" ")) {
-//            do {
-//
-//                switch ()
-//                input();
-//                go0 = fof;
-//                System.out.println(go0);
-//                if (go0.equals("Fight")) {
-//                    System.out.println("You see red  and without thinking grab the nearest  thing to your right and throw it at the bully's face. " +
-//                            "\n *Scuffle ensues*");
-//
-//                    fightOrFlight.add("Fight");
-//                    System.out.println(fightOrFlight.indexOf(0));
-//                } else if (go0.equals("Flight")){
-//                    System.out.println();
-//                    fightOrFlight.add("Flight");
-//                    System.out.println(fightOrFlight.indexOf(0));
-//
-//                }
-//
-//            } while (go2.equals(""));
-//        }
 
     }
 
